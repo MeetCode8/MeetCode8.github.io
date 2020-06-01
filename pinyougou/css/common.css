@@ -1,0 +1,276 @@
+/* 向左浮动 */
+.fl {
+  float: left;
+}
+/* 向右浮动 */
+.fr {
+  float: right;
+}
+/* 版心 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  height: 3000px;
+}
+/* 字体声明 */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?bh789c");
+  src: url("../fonts/icomoon.eot?bh789c#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?bh789c") format("truetype"),
+    url("../fonts/icomoon.woff?bh789c") format("woff"),
+    url("../fonts/icomoon.svg?bh789c#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.fr .icomoon {
+  font-family: "icomoon";
+  font-size: 16px;
+  line-height: 26px;
+}
+.style-red {
+  color: #c81623;
+}
+/* <!-- 顶部导航栏star --> */
+
+.shortcut {
+  height: 31px;
+  background-color: #f1f1f1;
+  line-height: 31px;
+}
+.shortcut li {
+  float: left;
+}
+.spacer {
+  width: 1px;
+  height: 12px;
+  background-color: #666;
+  margin: 9px 12px 0;
+}
+/* <!-- 顶部导航栏end --> */
+
+/* 头部header部分 star */
+.header {
+  position: relative;
+  height: 105px;
+}
+.logo {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 175px;
+  height: 56px;
+}
+.logo a {
+  display: block;
+  width: 175px;
+  height: 56px;
+  background: url(../img/logo.png) no-repeat;
+  overflow: hidden;
+  text-indent: -999px;
+}
+
+.search {
+  position: absolute;
+  left: 348px;
+  top: 25px;
+}
+.text {
+  float: left;
+  width: 455px;
+  height: 32px;
+  border: 2px solid #b1191a;
+  padding-left: 10px;
+  color: #cccccc;
+}
+.btn {
+  float: left;
+  width: 82px;
+  height: 36px;
+  background-color: #b1191a;
+  border: 0;
+  line-height: 36px;
+  color: #fff;
+  font-size: 16px;
+}
+.hotword {
+  position: absolute;
+  left: 348px;
+  top: 65px;
+}
+.hotword a {
+  margin: 0 12px;
+}
+.shopcar {
+  position: absolute;
+  top: 25px;
+  right: 60px;
+  width: 138px;
+  height: 34px;
+  border: 2px solid #dfdfdf;
+  background-color: #f7f7f7;
+  text-align: center;
+  line-height: 34px;
+}
+.car {
+  font-family: "icomoon";
+  font-size: 20px;
+  color: #d95151;
+}
+.arrow {
+  font-family: "icomoon";
+  margin-left: 6px;
+}
+.count {
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  height: 14px;
+  background-color: #e60012;
+  padding: 0 5px;
+  line-height: 14px;
+  color: #fff;
+  border-radius: 7px 7px 7px 0;
+}
+/* 头部header部分 end */
+/* nav部分 */
+.nav {
+  height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+.dropdown {
+  width: 209px;
+  height: 45px;
+}
+.dropdown .dl {
+  width: 100%;
+  height: 100%;
+  background-color: #b1191a;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.dropdown .dt {
+  height: 465px;
+  background-color: #c81623;
+  margin-top: 2px;
+}
+
+.menu_item {
+  height: 31px;
+  padding: 0 10px;
+  margin-left: 1px;
+  line-height: 31px;
+  transition: all 0.4s;
+}
+.menu_item:hover {
+  background-color: #fff;
+  padding-left: 10px;
+}
+.menu_item a {
+  font-size: 14px;
+  color: #fff;
+}
+.menu_item i {
+  float: right;
+  font-family: "icomoon";
+  color: #fff;
+}
+.menu_item:hover a {
+  color: #c81623;
+}
+.navitems li {
+  float: left;
+  margin-left: 10px;
+}
+.navitems li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #333333;
+  padding: 0 25px;
+  font-size: 16px;
+}
+/* nav部分 end */
+/* footer star */
+
+.footer {
+  margin-top: 10px;
+  height: 400px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+.mod-server {
+  height: 79px;
+  /* background-color: pink; */
+  border-bottom: 1px solid #cccccc;
+}
+.mod-server li {
+  float: left;
+  width: 238px;
+  height: 80px;
+}
+.mod_server_icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url(../img/icons.png) no-repeat;
+  margin-left: 35px;
+}
+.mod_zheng {
+  background-position: -253px -3px;
+}
+.mod_server_tit {
+  float: left;
+  margin-left: 6px;
+}
+.mod_server_tit h5 {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* mod_help 部分 */
+
+.mod_help {
+  height: 188px;
+  border-bottom: 1px solid #cccccc;
+}
+.mod_help dl {
+  float: left;
+  width: 150px;
+  height: 188px;
+  padding: 20px 0 0 50px;
+}
+.mod_help dt {
+  height: 25px;
+  font-size: 16px;
+}
+.mod_help dd {
+  height: 22px;
+  margin-top: 5px;
+}
+.mod_help_item dt,
+.mod_help_item p {
+  margin-left: 15px;
+}
+.mod_help_item img {
+  margin: 6px 0;
+}
+.mod_copyright {
+  text-align: center;
+}
+.mod_copyright_lings {
+  margin: 5px 0;
+}
+.mod_copyright_info {
+  line-height: 20px;
+}
+
+/* footer end */

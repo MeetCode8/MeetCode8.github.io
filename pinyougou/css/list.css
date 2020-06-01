@@ -1,0 +1,106 @@
+/* 列表页css */
+
+.sk {
+  position: absolute;
+  left: 185px;
+  top: 30px;
+  width: 71px;
+  height: 32px;
+  border-left: 1px solid #b1191a;
+}
+.sk img {
+  margin-left: 14px;
+  margin-top: 2px;
+}
+.sky_links {
+  float: left;
+  line-height: 45px;
+}
+.sky_links li {
+  float: left;
+  margin: 0 24px;
+}
+
+.sky_links li a {
+  font-size: 16px;
+  font-weight: 700;
+}
+.sky_items {
+  line-height: 45px;
+  margin-left: 70px;
+}
+.sky_items li {
+  float: left;
+  font-size: 14px;
+  margin: 0 16px;
+}
+.sk_container_bd {
+  margin-top: 25px;
+}
+.sk_goods {
+  float: left;
+  overflow: hidden;
+  width: 286px;
+  height: 480px;
+  margin-right: 6px;
+  border: 1px solid transparent;
+  margin-bottom: 30px;
+}
+.sk_goods img {
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.sk_goods h5 {
+  margin: 25px 0 0 15px;
+  font-size: 14px;
+}
+.sk_goods_price {
+  padding: 14px 0 0 14px;
+  font-size: 22px;
+}
+.sk_goods_price em {
+  color: #e60012;
+}
+.sk_goods_progreem {
+  padding: 15px 0 0 14px;
+}
+.bar {
+  display: inline-block;
+  width: 132px;
+  height: 12px;
+  border: 1px solid #e12228;
+  border-radius: 7px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.bar_inner {
+  width: 84%;
+  height: 12px;
+  border-radius: 7px;
+  background-color: #ed282e;
+}
+.sk_goods_progreem i,
+.sk_goods_progreem em {
+  color: #e12228;
+}
+.sk_goods a:hover {
+  text-decoration: none;
+}
+.sk_goods span {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #b1191a;
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.sk_goods:hover {
+  border: 1px solid #e12228;
+}
+.parse {
+  width: 240px;
+}

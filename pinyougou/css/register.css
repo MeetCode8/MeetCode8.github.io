@@ -1,0 +1,99 @@
+/* 注册页面css */
+
+.w {
+  width: 1200px;
+  margin: auto;
+}
+header {
+  height: 82px;
+  border-bottom: 2px solid #b1191a;
+}
+.logo {
+  padding-top: 20px;
+}
+.registerarea {
+  height: 520px;
+  border: 1px solid #cccccc;
+  margin-top: 20px;
+}
+.registerarea h3 {
+  background-color: #ececec;
+  height: 40px;
+  border-bottom: 1px solid #cccccc;
+  line-height: 40px;
+  padding-left: 12px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.registerarea em {
+  font-size: 14px;
+  float: right;
+  padding-right: 12px;
+}
+.registerarea a {
+  color: #b1191a;
+}
+.reg_form {
+  width: 600px;
+  height: 400px;
+  margin: 40px auto 0;
+}
+.reg_form li {
+  margin-bottom: 20px;
+}
+.reg_form label {
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+
+.inp {
+  width: 240px;
+  height: 35px;
+  padding-left: 12px;
+  font-size: 14px;
+}
+.reg_form span {
+  color: #b1191a;
+}
+.reg_form i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/enner.jpg) no-repeat;
+}
+.agree {
+  padding-left: 120px;
+  margin-top: 20px;
+}
+.agree input {
+  vertical-align: middle;
+}
+.agree a {
+  font-size: 12px;
+  color: #1ba1e6;
+}
+.over {
+  width: 200px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  margin: 20px 120px 0;
+  background-color: #c81623;
+  border: none;
+  color: #fff;
+}
+.footer {
+  height: 120px;
+  text-align: center;
+  font-size: 12px;
+}
+.links {
+  margin: 20px 0 10px 0;
+  line-height: 26px;
+}
+.copyright {
+  line-height: 20px;
+}
