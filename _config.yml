@@ -102,7 +102,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: "git"
+  type: git
   repo: https://github.com/MeetCode8/meetCode8.github.io.git
   branch: main
+  token: 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
 
